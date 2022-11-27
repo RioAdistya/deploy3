@@ -1,23 +1,26 @@
 {
   "development": {
     "username": "postgres",
-    "password": "postgres",
-    "database": "TokoBelanjaDevelopment",
-    "host": "localhost",
+    "password": "NS4uPxbR8daLoxui0AKF",
+    "database": "railway",
+    "host": "containers-us-west-111.railway.app",
+    "port": "5961",
     "dialect": "postgres"
   },
   "development_rio": {
     "username": "postgres",
-    "password": "1234567",
-    "database": "TokoBelanjaDevelopment",
-    "host": "localhost",
+    "password": "NS4uPxbR8daLoxui0AKF",
+    "database": "railway",
+    "host": "containers-us-west-111.railway.app",
+    "port": "5961",
     "dialect": "postgres"
   },
   "production": {
     "username": "postgres",
-    "password": "postgres",
-    "database": "TokoBelanjaProduction",
-    "host": "localhost",
+    "password": "NS4uPxbR8daLoxui0AKF",
+    "database": "railway",
+    "host": "containers-us-west-111.railway.app",
+    "port": "5961",
     "dialect": "postgres"
   }
 }
