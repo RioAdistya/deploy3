@@ -5,7 +5,7 @@
     "database": "railway",
     "host": "containers-us-west-111.railway.app",
     "port": "5961",
-    "db_url": "postgresql://${{ username }}:${{ PGPASSWORD }}@${{ PGHOST }}:${{ PGPORT }}/${{ PGDATABASE }}",
+    "db_url": "postgresql://postgres:NS4uPxbR8daLoxui0AKF@containers-us-west-111.railway.app:5961/railway",
     "dialect": "postgres"
   },
   "development_rio": {
@@ -14,7 +14,7 @@
     "database": "railway",
     "host": "containers-us-west-111.railway.app",
     "port": "5961",
-    "db_url": "postgresql://${{ username }}:${{ PGPASSWORD }}@${{ PGHOST }}:${{ PGPORT }}/${{ PGDATABASE }}",
+    "db_url": "postgresql://postgres:NS4uPxbR8daLoxui0AKF@containers-us-west-111.railway.app:5961/railway",
     "dialect": "postgres"
   },
   "production": {
@@ -23,7 +23,7 @@
     "database": "railway",
     "host": "containers-us-west-111.railway.app",
     "port": "5961",
-    "db_url": "postgresql://${{ username }}:${{ PGPASSWORD }}@${{ PGHOST }}:${{ PGPORT }}/${{ PGDATABASE }}",
+    "db_url": "postgresql://postgres:NS4uPxbR8daLoxui0AKF@containers-us-west-111.railway.app:5961/railway",
     "dialect": "postgres"
   }
 }
