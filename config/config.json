@@ -2,17 +2,13 @@
   "development": {
     "username": "postgres",
     "password": "postgres",
-    "database": "e-commerce",
+    "database": "TokoBelanjaDevelopment",
     "host": "localhost",
-    "port": "5432",
     "dialect": "postgres"
   },
   "production": {
-    "username": "postgres",
-    "password": "postgres",
-    "database": "e-commerce",
-    "host": "localhost",
-    "port": "5432",
-    "dialect": "postgres"
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "protocol": "postgres"
   }
 }
